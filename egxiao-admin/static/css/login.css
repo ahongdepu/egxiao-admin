@@ -1,0 +1,118 @@
+
+
+/*
+ * theme
+ */
+html, body{
+  background: none;
+  min-height: 100%;
+}
+input:focus{
+  border: #9cf 1px solid !important;
+}
+
+/*登录页面样式开始*/
+.login-con{
+  padding-top: 5em;
+}
+
+.container .login-bg .login-logo{
+  text-align: center;
+}
+.login-logo a img{
+  width: 20%;
+  height: auto;
+  padding-bottom: 2em;
+} 
+
+
+
+.container .login-bg{
+  max-width: 340px;
+  min-width: 328px;
+  padding:5em;
+  background: #fff;
+}
+
+.login-bg .login-bg-color{
+  background: #fefefe;
+}
+
+
+.login-bg .login-btn{
+  width: calc(100% + 30px) !important;
+  line-height: 3em;
+  height: 3em;
+  padding-top: 0px;
+  margin-left: -15px;
+  margin-top: 1.8em;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
+
+.login-bg .pull-left, .login-bg .pull-right{
+  line-height: 2em;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+.login-bg .pull-left{ 
+  margin-left: -15px;
+}
+.login-bg .pull-right{
+  margin-right: -15px;
+}
+
+/*登录页面结束,注册页面开始*/
+.register-logo{
+  width: 100%;
+  padding: 1.5em;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.register-logo .pull-left,.register-logo .pull-right{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.register-logo a img{
+  max-width: 54px;
+}
+.register-bg{
+  padding-top: 2em ;
+}
+.register-bg .register-pagecenter{
+  text-align: center;
+  line-height: 2em;
+  padding-bottom: 1em;
+}
+.register-bg .register-hqyzm{
+  padding-left: 10px;
+  position: relative;
+  top:-1px;
+}
+.register-paddingt{
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+#register_in{
+}
+
+
+/*注册页面结束*/
+/*版权样式开始*/
+.copyright{
+  line-height: 5em;
+  height: 5em;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background: none;
+}
+/*版权样式结束*/
+
+
+
+
+
+

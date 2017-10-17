@@ -1,0 +1,602 @@
+@charset "UTF-8";
+
+/*
+ * theme
+ */
+
+.g-content {
+	max-height: 100% !important;
+}
+
+.g-pointer {
+	cursor: pointer;
+}
+#g-delete{
+	height: 100% !important;
+}
+.g-badge-nobg{
+	background: none;
+	color: #656D78;
+}
+table > thead > tr > th{
+	min-width: 7em !important;
+}
+table > thead > tr > th:first-child,
+table > thead > tr > th:nth-child(2){
+	min-width: 2em !important;
+}
+.g-padBt-lg{
+	padding-bottom: 35em !important;
+}
+/*公共样式*/
+
+
+/*index的logo的样式*/
+
+.x-navigation>li.xn-logo>a.egxiao-logo {
+	font-size: 5.2em;
+	padding-top: 2px !important;
+	font-weight: 100;
+	text-indent: 0px;
+	text-align: center;
+	line-height: 50px;
+	background: #b64645;
+	padding: 0px;
+	border-bottom: 0px;
+	color: #FFF;
+	height: 50px;
+}
+.x-navigation>li.xn-logo>a.egxiao-logo:hover{
+	transition: background-color 500ms ease-out;
+}
+ul.x-navigation>li>a:hover {
+	padding-left: 15px;
+}
+
+
+/*index的logo的样式结束*/
+
+
+/*upload的样式*/
+
+.file-preview,
+.file-preview-frame {
+	height: 0px !important;
+	overflow: none !important;
+	display: none !important;
+}
+
+.form-control {
+	overflow: auto;
+}
+
+#g-error {
+	text-align: left;
+	text-indent: 2em;
+	color: #FF0000;
+}
+
+.g-red>a {
+	line-height: 2em;
+}
+
+#g-error p {
+	color: red;
+	padding-top: 1em;
+}
+
+.g-tab-row {
+	width: 100%;
+	margin-top: 6em;
+}
+
+.g-tab {
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+
+.g-tab .g-tab-nav {
+	width: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.file-caption-name {
+	text-align: left;
+}
+
+
+/*upload样式结束*/
+
+
+/*学员页面样式开始*/
+
+
+.g-text-left {
+	text-align: left !important;
+	letter-spacing: 0.1em;
+
+}
+.g-scroll {
+		overflow: auto;
+	}
+.g-scroll .panel-heading .g-add-table{
+	margin-right: 4em;
+	padding-right: 10px;
+}
+.form-group{
+	overflow: hidden;
+}
+#g-myModal input,#g-myModal select {
+	width: 100%;
+	background: #fff;
+	border: none;
+	color: #222;
+	border-bottom: 1px solid #EEE8D5;
+	letter-spacing: 0.2em;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	overflow: hidden;
+}
+#g-myModal select {
+	height: 30px;
+	line-height: 18px;
+}
+textarea.g-textarea {
+	width: 100%;
+	height: 5em;
+	line-height: 1.5em;
+}
+thead th:first-child::before,thead th:last-child::before{
+	display: none;
+}
+tbody#g-modal-click > tr > td:nth-child(2) {
+	color: #0000CC !important;
+}
+
+tbody#g-modal-click>tr td:nth-child(2):hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+tbody#g-modal-click > tr > td,tbody#g-modal-click > tr > th{
+	white-space: nowrap;
+	min-width: 7em ;
+	overflow: hidden;
+}
+tbody#g-modal-click > tr > td:first-child,tbody#g-modal-click > tr > th:first-child{
+	min-width: 1.2em;
+}
+tbody#g-modal-click  tr > th{
+	min-width: 5em;
+	min-height: 2em;
+}
+thead th:last-child{
+	text-align: center;
+	padding: 0px;
+	background: #fff !important;
+	color: #000 !important;
+}
+thead tr th:last-child:hover{
+	 background: #eee !important;
+}
+thead th:last-child form{
+	display: none;
+	position: absolute;
+	padding: 15px 0px 15px 15px;
+	background: #fff;
+	width: 160px;
+	height: 200px;
+	right: 0px;
+	top: 35px;
+	z-index: 2;
+}
+thead th:last-child form .form-group{
+	margin:0px;
+	height: 2em;
+	line-height: 2em;
+	border-bottom: 1px dotted #ddd;
+}
+thead th:last-child form .form-group:hover{	
+	background: #eee;
+}
+thead th:last-child form .form-group:hover,
+thead th:last-child form .form-group label:hover,
+thead th:last-child form .form-group input:hover{
+	cursor:pointer;
+}
+
+thead th:last-child form .form-group .col-sm-2{
+	padding-top: 2px;
+}
+thead th:last-child form .g-form-top{
+	height: 140px;
+	padding-bottom: 4px;
+	overflow-y:auto;
+}
+
+thead th:last-child form .g-form-top::-webkit-scrollbar{
+	display: none;
+}
+thead th:last-child form label{
+	text-align: left;
+	color: #656d78;
+}
+thead th:last-child form #g-table-sub{
+	position: absolute;
+	bottom: 5px;
+	left: calc(15px/2);
+	width: calc(100% - 15px);
+}
+
+#customers2_length {
+	width: 20%;
+}
+
+#customers2_filter {
+	width: 30%;
+}
+
+form#g-select-form {
+	width: 50%;
+	float: left;
+	margin: 0px;
+	padding: 0 0 5px;
+	letter-spacing: 0.2em;
+	border-bottom: 1px solid #E5E5E5;
+	display: none;
+}
+
+form#g-select-form label {
+	line-height: 30px;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+	height: 30px;
+	margin-bottom: 0px;
+	text-align: right;
+}
+
+form#g-select-form fieldset[disabled] label {
+	color: #ddd;
+}
+
+form#g-select-form fieldset[disabled] select#g-select {
+	color: #ddd;
+}
+.g-table-width .dataTables_info,.g-table-width #customers2_paginate{
+	position: absolute;
+	bottom: 6px;
+}
+.g-table-width #customers2_paginate{
+	right: 12px;
+}
+.g-text-green{
+	color: green !important;
+}
+.g-text-yellow{
+	color: #FFCC00 !important;
+}
+.g-text-red{
+	color: darkred !important;
+}
+
+/*学员页面样式结束*/
+
+
+/*跟进页面样式开始*/
+
+.g-panel .panel-heading p{
+	text-indent: 2em;
+}
+.g-record > .panel > .panel-heading > img{
+	max-height: 35px;
+	margin-right: 1em;
+}
+.g-panel .panel-body{
+	border-left: 1px solid #f5f5f5;
+	border-right: 1px solid #F5F5F5;
+	overflow: auto;
+}
+.g-panel .panel-body .form-group{
+	padding-top: 1em;
+	border-top: 1px solid #fcfcfc;
+}
+.g-panel .panel-body .form-group input{
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+.g-record .panel-body .g-text-body{
+	min-height: 5em;
+	text-indent: 2em;
+	word-break: break-all;
+	text-align: justify;
+}
+.g-record .panel-body .g-minHt{
+	min-height: 3em;
+}
+.g-record .panel-body .g-text-body p{
+	font-size: 1.2em;
+}
+.bg-gray,
+.g-record .bg-gray{
+	height: 3em;
+	line-height: 3em;
+	margin-top: 0.3em;
+	margin-bottom: 0.5em;
+	background: #fdfdfd;
+}
+.g-record a:link,.g-record a:visited,.g-record a:hover,.g-record a:active{
+	text-decoration: none;
+}
+.bg-gray .bg-gray-title,
+.g-record .bg-gray .bg-gray-title{	
+	color: #ccc !important;
+}
+.bg-gray .bg-gray-text,
+.g-record .bg-gray .bg-gray-text{
+	padding-left: 2em;
+}
+.g-record .g-paddingLeft{
+	padding-left: 1em;
+}
+
+form.g-shaixuan > .form-group > .btn{
+	margin-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.g-fixed{
+	position: fixed;
+	right: calc(15px/2);
+}
+.g-fixed-top-1{
+	top:-53px;
+}
+.g-fixed-top-2{
+	bottom: 88px;
+}
+#g-fixed .btn{
+	padding-left: 0.9em;
+	padding-right: 0.9em;
+}
+.g-qh{
+	height: 2.5em;
+	line-height: 2.5em;
+	font-size: 2em;
+}
+.col-sm-4 .panel{
+	font-size: 0.9em !important;
+}
+.col-sm-4 .bg-gray .bg-gray-text{
+	padding-left: 0em !important;
+	font-size: 1em !important;
+}
+.col-sm-4 .panel-body .g-minHt{
+	min-height: 5em;
+}
+.col-sm-4 .panel-body{
+	padding-top:5px;
+}
+.col-sm-4 .panel-body .g-text-body p{
+	font-size: 1.1em !important;
+}
+.col-sm-4 .g-paddingLeft{
+	padding-left: 0.5em;
+}
+.col-sm-4 .panel-title-box h3,.col-sm-4 .panel-title-box span{
+	font-size: 1.1em !important;
+}
+.g-qh a:link,.g-qh a:hover,.g-qh a:visited{
+	color: #ccc;
+}
+.g-borderTop{
+	border-top: 1px #fff solid;
+}
+.g-borTop-gray{
+	border-top: 1px #EEEEEE solid;
+	padding-top: 0.5em;
+}
+/*跟进页面样式結束*/
+
+/*表格加載頁面樣式開始*/
+.g-detail,
+.g-detail-bg {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 0px;
+	display: none;
+	overflow: auto;
+	z-index: 9;
+}
+
+.g-detail-bg {
+	width: 100%;
+	background: #000;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	-webkit-opacity: 0.2;
+}
+
+.g-detail {
+	top: 50px;
+	background: #fff;
+	z-index: 10;
+}
+
+.g-detail .panel {
+	overflow: auto;
+	border-radius: 1px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.g-detail > .panel{
+	padding-bottom: 5%;
+}
+.g-detail .panel .panel-heading{
+	border-bottom: 1px solid #E3E3E3;
+	overflow: hidden;
+}
+.g-detail .panel #g-detail-xinxi .panel-body{
+	padding: 3em 3em 3em 0em;	
+}
+.g-detail .panel .panel-body .form-control{
+	border-radius: 2px;
+	background: none;
+	letter-spacing: 0.1em;
+}
+.g-detail .panel .panel-body label.control-label{
+	color: #888;
+	font-weight: 400;
+}
+.g-detail .panel .panel-body input.form-control{
+	color: #000000;	
+}
+.g-detail .panel-footer {
+	border-radius: 0px;
+	border-bottom: 1px solid #E3E3E3;
+	
+}
+.g-detail .panel .panel-footer .pull-right{
+	padding-right: 3em;
+}
+.g-detail .panel .panel-footer .pull-right .btn{
+	border-radius: 2px;
+}
+.g-detail .panel .panel-footer .pull-right .btn-default{
+	padding-top: calc(9px/2) ;
+	letter-spacing: 0.15em;
+}
+.g-detail .panel .panel-footer button.btn-default{
+	margin-right: 3em;
+	color: #888;
+}
+
+.g-detail .row [class^='col-xs-'],
+.g-detail .row [class^='col-sm-'],
+.g-detail .row [class^='col-md-'],
+.g-detail .row [class^='col-lg-'] {
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.g-detail .form-group .col-xs-6:last-child{
+	padding-left: 20px;
+}
+.g-detail .form-group .col-xs-6:first-child label,
+.g-detail .panel .panel-body .form-horizontal .form-group label.control-label{
+	padding-left: 3em;
+}
+.g-detail .form-group .col-xs-6:last-child label{
+	padding-left: 4em;
+}
+.g-detail .nav-tabs > li.active > a,
+.g-detail .nav-tabs > li.active > a:hover,
+.g-detail .nav-tabs > li.active > a:focus,
+.g-detail .nav-tabs > .dropdown.active.open > a:hover{
+	border-top:none;
+	color: #555;
+	padding: 9px 3px;
+	border-bottom: 2px solid #094579;	
+}
+.g-detail .nav-tabs > li > a{
+	transition: all 200ms ease;
+}
+.g-detail .nav-tabs > li > a{
+	border-top: none;
+	margin-right: 0px;
+	background: none;
+	color: #428bca;
+}
+.g-detail .panel .panel-body .g-add-record-bg{
+	padding: 1em;
+}
+.g-detail .panel .panel-body .g-add-record-bg .g-ui-bg{
+	background: url(../img/backgrounds/add-record-bg.png) no-repeat;
+	width: 78px;
+	height: 7px;
+	position: relative;
+	left: 12px;
+	top:1px
+}
+.g-detail .panel .panel-body .g-add-record{
+	border: 1px solid #E3E3E3;
+}
+.g-detail .panel .panel-body .g-add-record-bg a[href = 'javascript:']{
+	color: #333;
+}
+.g-detail .panel .panel-body .g-add-record-bg a[alt]:link,
+.g-detail .panel .panel-body .g-add-record-bg a[alt]:visited,
+.g-detail .panel .panel-body .g-add-record-bg a[alt]:hover,
+.g-detail .panel .panel-body .g-add-record-bg a[alt]:active{
+	text-decoration: none;
+	color: #000;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-before{	
+	color: #E3E3E3;
+	font-size: 1.5em;
+	line-height: 3em;
+	height: 3em;
+	padding-left: 1em;
+}
+.g-detail .panel .panel-body .g-add-record:hover .g-add-record-before{
+	color: #999;
+	cursor: text;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-before span.fa{
+	font-weight: 200;
+	margin-right: 0.5em;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-before .btn{
+	margin: 1em 2em;
+	border-color: #E3E3E3;
+	color: #E3E3E3;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-after{
+	width: 100%;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-after .g-times{
+	position: relative;
+	top: 1em;
+	right: 1em;
+	height: 0px;
+	cursor: pointer;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-after textarea{
+	min-height: 3em; 
+	padding: 1em;
+	border: none;
+	border-radius: 2px;
+	height: auto; 
+	width: 100%;
+}
+.g-detail .panel .panel-body .g-add-record .g-add-record-after .btn{
+	margin-top:2px;
+	margin-right: 2em;
+}
+
+
+
+.g-detail .panel #g-detail-caiwu .g-caiwu-ls{
+	border-bottom: 1px solid #EEE;
+	padding: 1em 0;
+	letter-spacing: 1px;
+}
+.g-detail .panel #g-detail-caiwu .g-shu{
+	width: 1px;
+	color: #EEEEEE;
+	height: auto;
+	margin: 0 0.5em;
+}
+.g-detail .panel #g-detail-caiwu .g-caiwu-tit{
+	color: #aaa;
+}
+/*表格加載頁面樣式结束*/
+
+
+
+
+
